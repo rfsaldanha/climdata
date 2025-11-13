@@ -25,7 +25,7 @@ for (y in years) {
   for (m in month) {
     # File name
     file_name <- glue(
-      "clim_ntci_{y}.nc"
+      "clim_ntci_{y}_{m}.nc"
     )
 
     # Check if file is already available
